@@ -1,25 +1,123 @@
+
 <!DOCTYPE html>
-<html lang="tr"> <!--Sayfanın Dilini Belirtir-->
-    <head>
-        <meta charset="utf 8">   <!--Türkçe Karakterlerin Düzgün Görünmesini Sağlar-->
-        <title>Temel HTML Komutları</title> <!--Sekmede Gözüken Başlık-->
-    </head>
-    <body>
-        <h1 title = "anabaslik">Temel HTML Komutları Hakkında Bilgiler</h1>
-        <h2>Head Bölümü Komutları </h2>
-        <p>title</p>
-        <p>charset</p>
-        <h2>Body Bölümü Komutları</h2>
-        <p>Hx Başlık Metinleri</p>
-        <p>p paragraf etiketi</p>
-        <p style=color:rgb(129,81,218)>Paragrafın birinci satırı <br>
-            Paragrafın ikinci satırı <br>
-            Paragrafın üçüncü satırı</p>
-            <p>deneme yazısı satırı</p>
-            <p> deneme amaçlı yazı</p>
-        <p>a href etiketi kullanılarak link bağlantısı eklenebilir</p>
-        <a href="https://github.com/kmustafa0">Github hesabıma ulaşmak istersiniz tıklayın.</a>
-        <br>
-        <a href="https://www.linkedin.com/in/kolemustafa/">Linkedin hesabıma ulaşmak isterseniz tıklayın.</a>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Smooch+Sans"/>
+    <title>Hades</title>
+    <style>
+      body {
+        background-image: url(https://media.discordapp.net/attachments/900266597330063410/951808785725390848/photo-1553095066-5014bc7b7f2d.jpg);
+        background-repeat: no-repeat; 
+        background-position: center;
+        background-size: cover; 
+        font-family: "Smooch+Sans", sans-serif;
+      }
+
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .link {
+        min-width: 130% !important;
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1140px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          max-width: 720px;
+        }
+
+        .link {
+          width: 130%;
+        }
+      }
+      @media (min-width: 576px) {
+        .container {
+          max-width: 540px;
+        }
+      }
+
+      .w3-yellow,
+      .w3-hover-white:hover,
+      .w3-text-black {
+        color: rgba(255, 255, 255) !important;
+        background-color: rgba(250,128,114, 0.4) !important;
+      }
+    </style>
+  </head>
+
+  <body class="w3-white">
+    <div class="container">
+      <div class="image-container">
+        <img
+          src="https://cdn.discordapp.com/attachments/899674403804172358/951818160821108756/1641200123749.jpg"
+          class="w3-margin"
+          alt="Person"
+          max-width="100%"
+          height="300px"
+          style="border-radius: 50%"
+        />
+
+
+        </div>
+
+        <div class="links-container">
+          <a href="https://www.instagram.com/mmustafakole/" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Instagram</a>
+          <a href="https://discord.com/users/210649193704980480" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Discord</a>
+          <a href="https://github.com/kmustafa0" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Github</a>
+          <a href="https://www.linkedin.com/in/kolemustafa//" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Linkedin</a>
+          <a href="https://open.spotify.com/user/kazuâ" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Spotify</a>
+        </div>
+      </div>
+    </div>
+
+    <div  class="w3-content w3-padding-32 w3-center" style="padding-right: 10px; padding-left: 10px; max-width: 600px">
+       <h3 class="w3-text-white" style="font-weight: 698"> Mustafa
+      <h5 class="w3-text-white">Başlangıç 11.03.2022</h5>
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          </p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+      <footer class="w3-container w3-center w3-padding-48 w3-margin-top">
+
+      </footer>
+    </div>
+  </body>
 </html>
