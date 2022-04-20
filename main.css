@@ -538,6 +538,7 @@ textarea:focus {
     border-radius: 5px;
     font-weight: 600;
     color: #fff;
+    text-transform: uppercase;
 }
 .interested_interes:hover{
     background: rgba(0, 0, 0, 1);
