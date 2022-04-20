@@ -361,7 +361,7 @@ textarea:focus {
 }
 .home-mouse-scroll-cont {
     position: absolute;
-    bottom: 7%;
+    bottom: 12%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -572,7 +572,7 @@ textarea:focus {
 }
 .skills-mouse-scroll-cont {
     position: absolute;
-    bottom: 5%;
+    bottom: 12%;
     left: 50%;
     transform: translateX(-50%);
 }
