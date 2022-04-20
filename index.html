@@ -1,123 +1,270 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />      <!--Selamm-->
-    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Roboto%20Mono:wght@100"/>
-      <title>MustafaKole</title>
-      <link rel="icon" type="image/x-icon" href="favicon\apple-touch-icon.png">
-    <style>
-      body {
-        background-image: url(https://media.discordapp.net/attachments/900266597330063410/951808785725390848/photo-1553095066-5014bc7b7f2d.jpg);
-        background-repeat: no-repeat; 
-        background-position: center;
-        background-size: cover;
-        font-family: "Roboto+Mono", roboto-mono;
-      }
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mustafa Köle | Web Tasarım Vizesi</title>
+        <meta name="keyword" content="Mustafa Köle | Web Tasarım Vizesi">
+        <meta name="description" content="Mustafa Köle | Web Tasarım Vizesi">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:ital,wght@0,100;0,500;1,100&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-content">
+                    <div class="header-logo-container">
+                        <!-- <div class="header-logo-img-cont">
+                            <img src="./images/mustafakole1.jpg" alt="Logo İmage" class="header-logo-img">
+                        </div> -->
+                        <span class="header-logo-sub">Mustafa Köle</span>
+                    </div>
+                    <div class="header-main">
+                        <ul class="header_links">
+                            <li><a href="#home" class="header_link">Anasayfa</a></li>
+                            <li><a href="#about" class="header_link">Hakkımda</a></li>
+                            <li><a href="#skills" class="header_link">Yeteneklerim</a></li>
+                            <li><a href="#contact" class="header_link" >İletişim</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </header>
 
-      .container {
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-      }
+        <div class="nav-container">
+              <div class="nav-content">
+                <nav role="navigation">
+                    <p class="nav-text">mustafa kole</p>
+                  <div id="menuToggle">
+                    <input type="checkbox" />
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  <ul id="menu">
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#about">Hakkımda</a></li>
+                    <li><a href="#skills">Yeteneklerim</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                  </ul>
+                 </div>
+                </nav>
+              </div>
+          </div>
+        
+        <section id="home" class="home-hero">
+            <div class="home-content">
+                <h1 class="heading-primary">&#128075    SELAM!  &#128075</h1>
+                <div class="home-info">
+                    <p class="text-primary">
+                    Ben Mustafa, websiteme hoşgeldin! Bilgisayar Programcılığı 1. Sınıf öğrencisiyim ve buda benim Web Tasarımının Temelleri dersimin vizesi.
+                    </p>
+                </div>
+                <div class="home-cta">
+                    <a href="https://github.com/kmustafa0?tab=repositories" class="btn1 btn1-bg" target="_blank">Projelerim</a>
+                </div>
+            </div>
+            <div class="home-socials">
+                <div class="home-social">
+                    <a href="https://www.linkedin.com/in/kolemustafa/" target="_blank"  class="home-social-icon-link">
+                        <img src="./ico/linkedin-ico.png" class="home-social-icon">
+                    </a>
+                </div>
+                <div class="home-social">
+                    <a href="https://www.instagram.com/mmustafakole/" target="_blank"  class="home-social-icon-link">
+                        <img src="./ico/insta-ico.png" class="home-social-icon">
+                    </a>
+                </div>
+                <div class="home-social">
+                    <a href="https://kmustafa0.github.io/" target="_blank" class="home-social-icon-link">
+                        <img src="./ico/twitter-ico.png" class="home-social-icon">
+                    </a>
+                </div>
+                <div class="home-social">
+                    <a href="https://github.com/kmustafa0" target="_blank"  class="home-social-icon-link home-social-icon-link-bd-none">
+                        <img src="./ico/github-ico.png" class="home-social-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="home-mouse-scroll-cont">
+                <a href="#about"><div class="mouse"></div></a>
+            </div>
+        </section>
 
-      .image-container {
-        text-align: center;
-        width: 100%;
-      }
+        
 
-      .links-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-      }
+        <section id="about" class="about sec-pad"> 
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec--mb-med">
+                    <span class="heading-sec--main">
+                        <!-- Benim Hakkımda --> Hakkımda
+                    </span>
+                    <span class="heading-sec--sub">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sit, ipsam culpa architecto quasi dolores at omnis perferendis. Labore, earum.
+                    </span>
+                </h2>
+                <div class="about-content">
+                    <div class="about-content-main">
+                        <h3 class="about-content-title">benim hakkımda</h3>
+                        <div class="about-content-details">
+                            <p class="about-content-details-para">Merhaa ben <strong>Mustafa Köle</strong>. <strong>Eskişehir Osmangazi Üniversitesi Bilgisayar Programcılığı </strong>okuyorum. Liseyi <strong>İMMİB Erkan Avcı MTAL</strong>'de <strong>Elektrik/Elektronik, Güvenlik Sistemleri</strong> bölümünde okudum. Ratione et ipsa enim voluptate non. Natus nesciunt eius harum quod temporibus facere, ipsum dicta nihil soluta, explicabo, modi esse!</p>
+                        </div>
+                        <p class="about-content-details-para">
+                            Lorem ipsum dolor <strong>sit amet consectetur</strong>  adipisicing  elit. Accusamus omnis atque praesentium cum pariatur illo sunt quod amet aperiam provident fuga, <strong>mollitia</strong>  facere perferendis voluptatibus sed velit <mark>eum deserunt</mark>  ipsam? Placeat quam incidunt <strong>perspiciatis!</strong>  Necessitatibus, saepe distinctio. Sunt, voluptatibus tempore!
+                        </p>
+                    </div>
+                    <div class="education-life">
+                        <h3 class="about-content-title">Eğitim Hayatım</h3>
+                        <div class="education">
+                            <p class="about-content-details-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus ea ipsum libero voluptate? Nihil magnam voluptatum deleniti dicta fuga dignissimos eveniet, non illo, quaerat pariatur laborum voluptatibus id molestias.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-mouse-scroll-cont">
+                <a href="#skills"><div class="mouse1"></div></a>
+            </div>
+        </section>
+        
 
-      .link {
-        min-width: 130% !important;
-      }
+        <section id="skills" class="skills sec-pad">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec--mb-med">
+                    <span class="heading-sec--main">
+                        <!-- Benim Hakkımda --> İlgilendiklerim ve Yeteneklerim
+                    </span>
+                    <span class="heading-sec--sub">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sit, ipsam culpa architecto quasi dolores at omnis perferendis. Labore, earum.
+                    </span>
+                </h2>
+                <div class="about-content">
+                    <div class="about-content-main">
+                        <h3 class="about-content-title">Tanı beni!</h3>
+                        <div class="about-content-details">
+                            <p class="about-content-details-para">Merhaba ben <strong>Mustafa Köle</strong>. <strong>Eskişehir Osmangazi Üniversitesi Bilgisayar Programcılığı </strong>okuyorum. Liseyi <strong>İMMİB Erkan Avcı MTAL</strong>'de <strong>Elektrik/Elektronik, Güvenlik Sistemleri</strong> bölümünde okudum. Ratione et ipsa enim voluptate non. Natus nesciunt eius harum quod temporibus facere, ipsum dicta nihil soluta, explicabo, modi esse!</p>
+                        </div>
+                        <p class="about-content-details-para">
+                            Lorem ipsum dolor <strong>sit amet consectetur</strong>  adipisicing  elit. Accusamus omnis atque praesentium cum pariatur illo sunt quod amet aperiam provident fuga, <strong>mollitia</strong>  facere perferendis voluptatibus sed velit <mark>eum deserunt</mark>  ipsam? Placeat quam incidunt <strong>perspiciatis!</strong>  Necessitatibus, saepe distinctio. Sunt, voluptatibus tempore!
+                        </p>
+                    </div>
+                    <div class="about-content-interested">
+                        <h3 class="about-content-title">İlgilendiklerim</h3>
+                        <div class="interested">
+                            <div class="interested_interes">HTML</div>
+                            <div class="interested_interes">CSS</div>
+                            <div class="interested_interes">PYTHON</div>
+                            <div class="interested_interes">OYUNLAR</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-mouse-scroll-cont">
+                <a href="#contact"><div class="mouse2"></div></a>
+            </div>
+        </section>
+        
 
-      @media (min-width: 1200px) {
-        .container {
-          max-width: 1140px;
-        }
-      }
-      @media (min-width: 992px) {
-        .container {
-          max-width: 960px;
-        }
-      }
-      @media (min-width: 768px) {
-        .container {
-          max-width: 720px;
-        }
+        <section id="contact" class="contact sec-pad dynamicBg">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec--mb-med">
+                    <span class="heading-sec--main heading-sec--main_lt">
+                        İLETİŞİM    
+                    </span>
+                    <span class="heading-sec--sub heading-sec--sub_lt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente
+                    </span>
+                </h2>
+                <div class="contact-form--container">
+                    <form action="#" class="contact-form">
+                        <div class="contact-form--field">
+                            <label class="contact-form--label" for="name">İsmin</label>
+                            <input class="contact-form--input" placeholder="İsmini Yaz" type="text" name="name" id="name">
+                        </div>
+                        <div class="contact-form--field">
+                            <label class="contact-form--label" for="email">Email</label>
+                            <input class="contact-form--input" placeholder="Emailini Yaz" type="text" name="email" id="email">
+                        </div>
+                        <div class="contact-form--field">
+                            <label class="contact-form--label" for="message">Mesajın</label>
+                            <textarea class="contact-form--input" placeholder="Mesajını Yaz" name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="contact-btn">GÖNDER</button>
+                    </form>
+                   
+                </div>
+            </div>
+            <div class="contact-mouse-scroll-cont">
+                <a href="#home"><div class="mouse3"></div></a>
+            </div>
+        </section>
+        <footer>
+            <p><strong>Tasarlayan:  Mustafa Köle</strong></p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/kolemustafa/" target="_blank"  class="footer-social-icon-link">
+                    <img src="./ico/linkedin-ico.png" class="footer-social-icon">
+                </a>            
+                <a href="https://www.instagram.com/mmustafakole/" target="_blank"  class="footer-social-icon-link">
+                        <img src="./ico/insta-ico.png" class="footer-social-icon">
+                </a>
+                <a href="https://kmustafa0.github.io/" target="_blank" class="footer-social-icon-link">
+                        <img src="./ico/twitter-ico.png" class="footer-social-icon">
+                </a>
+                <a href="https://github.com/kmustafa0" target="_blank"  class="footer-social-icon-link">
+                        <img src="./ico/github-ico.png" class="footer-social-icon">
+                </a>
+            </div>
+            
+        </footer>
+      <!-- <section id="educations">
+            <h3 class="text-center heading-medium">Eğitim</h3>
 
-        .link {
-          width: 130%;
-        }
-      }
-      @media (min-width: 576px) {
-        .container {
-          max-width: 540px;
-        }
-      }
+            <div class="container">
+                <div class="educations"> -->
+                    <!-- Okul 1 -->
+              <!--       <div class="education">
+                        <div class="education-image">
+                            <img src="./images/lise-logojpg.jpg" alt="İmmib Erkan Avcı MTAL">
+                            <span></span>
+                        </div>
 
-      .w3-yellow,
-      .w3-hover-white:hover,
-      .w3-text-black {
-        color: rgba(255, 255, 255) !important;
-        background-color: rgba(250,128,114, 0.4) !important;
-      }
-    </style>
-  </head>
+                      <div class="education-info">
+                        <div class="name">
+                            İmmib Erkan Avcı MTAL
+                        </div>
+                        <div class="title">
+                            Güvenlik Sistemleri 
+                        </div>
+                        <div class="description">
+                            Elektrik Elektronik bölümünde Güvenlik Sistemleri eğitimi aldım
+                        </div>
+                      </div>   
+                    </div> -->
+                    <!-- Okul 2 -->
+                    <!-- <div class="education">
+                        <div class="education-image">
+                            <img src="./images/esogu-logo.jpg" alt="İmmib Erkan Avcı MTAL">
+                            <span></span>
+                        </div>
 
-  <body class="w3-white">
-    <div class="container">
-      <div class="image-container">
-        <img
-          src="https://cdn.discordapp.com/attachments/899674403804172358/951818160821108756/1641200123749.jpg"
-          class="w3-margin"
-          alt="Person"
-          max-width="100%"
-          height="300px"
-          style="border-radius: 20%"
-        />
-
-
-        </div>
-
-        <div class="links-container">
-          <a href="https://github.com/kmustafa0" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Github</a>
-          <a href="https://www.linkedin.com/in/kolemustafa/" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Linkedin</a>
-          <a href="https://www.instagram.com/mmustafakole/" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Instagram</a>
-          <a href="https://discord.com/users/210649193704980480" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Discord</a>
-          <a href="https://open.spotify.com/user/kazuâ" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank">Spotify</a>
-        </div>
-      </div>
-    </div>
-
-    <div  class="w3-content w3-padding-32 w3-center" style="padding-right: 10px; padding-left: 10px; max-width: 600px">
-       <h3 class="w3-text-white" style="font-weight: 600"> Mustafa
-      </p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          </p>
-        </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p>
-              </span>
-            </span>
-          </p>
-        </div>
-      </div>
-      <footer class="w3-container w3-center w3-padding-48 w3-margin-top">
-
-      </footer>
-    </div>
-  </body>
+                      <div class="education-info">
+                          <div class="name">
+                            Eskişehir Osmangazi Üniversitesi
+                          </div>
+                        <div class="title">
+                            Bilgisayar Teknolojileri 
+                        </div>
+                        <div class="description">
+                            Bilgisayar Programcılığı 1.sınıf öğrencisiyim
+                        </div>
+                      </div>   
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </body>
 </html>
