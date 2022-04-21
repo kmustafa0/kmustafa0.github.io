@@ -661,17 +661,18 @@ footer .copyrigt {
         height: 32px;
         position: absolute;
         cursor: pointer;
+        top: -9px;
         opacity: 0;
         z-index: 1600;
     }  
     #menuToggle span {
         display: flex;
-        width: 29px;
-        height: 2px;
+        width: 35px;
+        height: 5px;
         margin-bottom: 5px;
         position: relative;
         left: 4px;
-        top: 8px;
+        top: -5px;
         background: #ffffff;
         border-radius: 3px;
         z-index: 1600;
