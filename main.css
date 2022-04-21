@@ -718,11 +718,21 @@ footer p {
     #menuToggle input:checked ~ ul {
         transform: none;
     }
+    .education-life {
+        position: relative;
+        right: 2em;
+    }
+    #skills .heading-sec--main {
+        font-size: 2em;
+    }
     #skills .about-content-main {
         display: none;
     }
     .about-content {
         display: flex;
+    }
+    .about-content-interested {
+        padding-left: 1rem;
     }
     .contact-form--container .contact-btn {
         background: black;
