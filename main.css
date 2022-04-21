@@ -433,6 +433,9 @@ footer p {
     color: #70FADA;
     font-weight: 600;
 }
+footer .copyrigt {
+    font-weight: 100;
+}
 .footer-socials {
     display: flex;
     flex-direction: row;
