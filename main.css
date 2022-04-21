@@ -124,6 +124,9 @@ textarea:focus {
 /* mobil için navbar */
 
 @media screen and (max-width:900px) {
+    ovreflowx-hidden {
+        overflow-x: hidden;
+    }
     .header {
         display: none;
     }
