@@ -599,7 +599,7 @@ footer .copyrigt {
     .nav-text {
         position: relative;
         left: 60px;
-        top: 6px;
+        top: -3px;
         padding: 0.2em 0.2em;
         display: inline-block;
         font-size: 1.6rem;
