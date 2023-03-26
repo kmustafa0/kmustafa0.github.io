@@ -1,3 +1,3 @@
 # Kişisel web sitem.
 
-<a href="https://kmustafa0.github.io" target="_blank">Gitmek için tıklayın</a>
+<a href="https://mustafakole.dev" target="_blank">Gitmek için tıklayın</a>
