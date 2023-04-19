@@ -26,6 +26,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="card.css">
     <style>
       @font-face {
         font-family: "Mona Sans";
@@ -56,7 +57,7 @@
             <ul class="header_links">
               <li><a href="#home" class="header_link">Anasayfa</a></li>
               <li><a href="#about" class="header_link">Hakkımda</a></li>
-              <li><a href="#skills" class="header_link">Yeteneklerim</a></li>
+              <li><a href="#projects" class="header_link">Projelerim</a></li>
               <li><a href="#contact" class="header_link">İletisim</a></li>
             </ul>
           </div>
@@ -74,7 +75,7 @@
             <ul id="menu">
               <li><a href="#home">Anasayfa</a></li>
               <li><a href="#about">Hakkımda</a></li>
-              <li><a href="#skills">Yeteneklerim</a></li>
+              <li><a href="#projects">Projelerim</a></li>
               <li><a href="#contact">İletisim</a></li>
             </ul>
           </div>
@@ -217,18 +218,13 @@
           </div>
         </div>
         <div class="about-mouse-scroll-cont">
-          <a href="#skills"><div class="mouse1"></div></a>
+          <a href="#projects"><div class="mouse1"></div></a>
         </div>
       </section>
 
-      <section id="skills" class="skills sec-pad">
+      <section id="projects" class="skills sec-pad">
         <div class="main-container">
-          <h2 class="heading heading-sec heading-sec--mb-med">
-            <span class="heading-sec--main">
-              <!-- Benim Hakkımda -->
-              İlgilendiklerim ve Yeteneklerim
-            </span>
-            <span class="heading-sec--sub">
+            <!-- <span class="heading-sec--sub">
               İlgilendiğim ve uğrasmaktan keyif aldığım bazı seyler.
             </span>
           </h2>
@@ -267,7 +263,43 @@
                 <div class="interested_interes">MySQL</div>
               </div>
             </div>
-          </div>
+          </div> -->
+          <section class="">
+            <div class="container py-4">
+                <span class="heading-sec--main projects">
+                  projelerım
+                </span>
+          
+              <article class="postcard glass blue">
+                <a class="postcard__img_link" target="_blank" href="https://github.com/kmustafa0/AkademiFitness_admin-panel">
+                  <img class="postcard__img" src="./images/adminPanel.png" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                  <h1 class="postcard__title blue"><a target="_blank" href="https://github.com/kmustafa0/AkademiFitness_admin-panel">Spor salonu için admin Paneli</a></h1>
+                  <div class="postcard__subtitle small">
+                      <i class="fas fa-calendar-alt mr-2 mr03"></i>Wed, Feb 22th 2023
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">Bir Spor salonu icin yaptıgım, MySQL veri tabanı kullanarak uyelerin bilgilerini kaydettigim bir admin paneli. Yönetici bu ekrandan veritabanına yeni bir üye ekleme yapabiliyor. ID ve kayıt tarihi otomatik olarak atanıyor ve yönetici bunları değiştiremiyor. Yönetici veri tabanında girdiği bilgiye göre üye araması yapabiliyor, seçtiği üyenin bilgilerini güncelleyebiliyor veya üyeyi silebiliyor.</div>
+                </div>
+              </article>
+              <article class="postcard glass blue">
+                <a class="postcard__img_link" target="_blank" href="https://github.com/kmustafa0/loginRegisterAndManage">
+                  <img class="postcard__img" src="./images/loginPage.png" alt="Image Title" />	
+                </a>
+                <div class="postcard__text">
+                  <h1 class="postcard__title red"><a target="_blank" href="https://github.com/kmustafa0/loginRegisterAndManage" class="podcastTitle">Giris ekrani ve admin paneli</a></h1>
+                  <div class="postcard__subtitle small">
+                      <i class="fas fa-calendar-alt mr-2 podcastDate"></i>Mon, May 25th 2020
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">Internet programcılıgı dersinde yaptıgım proje. MySQL veri tabanı kullanıyor. Kullanıcı kayıt olabiliyor ve giris¸
+                    yapınca kendi bilgilerini goruntuleyip bunları guncelleyebiliyor. Giris¸ yapan hesap admin olarak kayıtlı ise tum kullanıcıları goruntuleyip bilgilerinde guncelleme yapabiliyor</div>
+                </div>
+              </article>
+              
+            </div>
+          </section>
         </div>
         <div class="skills-mouse-scroll-cont">
           <a href="#contact"><div class="mouse2"></div></a>
