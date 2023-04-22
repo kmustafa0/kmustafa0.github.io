@@ -413,7 +413,6 @@ textarea:focus {
     color: #fff;
     background: rgba(255, 175, 64);
     background-position: center;
-    height: 100vh;
     min-height: 80rem;
     max-height: 120rem;
     position: relative;
