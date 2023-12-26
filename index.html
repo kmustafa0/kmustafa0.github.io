@@ -1,178 +1,229 @@
 <!DOCTYPE html>
 <html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustafa Köle</title>
+    <meta name="keyword" content="Mustafa Köle | Kisisel Web Sitesi" />
+    <meta name="description" content="Mustafa Köle | Kisisel Web Sitesi" />
+    <link rel="icon" href="favicon/favicon.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:ital,wght@0,100;0,500;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="card.css" />
+    <style>
+      @font-face {
+        font-family: "Mona Sans";
+        src: url("Mona-Sans/Mona-Sans.woff2");
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mustafa Köle</title>
-  <meta name="keyword" content="Mustafa Köle | Kisisel Web Sitesi" />
-  <meta name="description" content="Mustafa Köle | Kisisel Web Sitesi" />
-  <link rel="icon" href="favicon/favicon.ico" />
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:ital,wght@0,100;0,500;1,100&display=swap"
-    rel="stylesheet" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <!-- CSS -->
-  <link rel="stylesheet" href="global.css" />
-  <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="card.css" />
-  <style>
-    @font-face {
-      font-family: "Mona Sans";
-      src: url("Mona-Sans/Mona-Sans.woff2");
-    }
+      h1,
+      p,
+      label {
+        font-family: "Mona Sans" !important;
+      }
+    </style>
+  </head>
 
-    h1,
-    p,
-    label {
-      font-family: "Mona Sans" !important;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="overflowx-hidden">
-    <header class="header">
-      <div class="header-content">
-        <div class="header-logo-container">
-
-          <span class="header-logo-sub">Mustafa Köle</span>
-        </div>
-        <div class="header-main">
-          <ul class="header_links">
-            <li><a href="#home" class="header_link">Anasayfa</a></li>
-            <li><a href="#about" class="header_link">Hakkımda</a></li>
-            <li><a href="#projects" class="header_link">Projelerim</a></li>
-            <li><a href="#contact" class="header_link">İletisim</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <!-- Mobil İçin Navbar -->
-    <div class="nav-container">
-      <div class="nav-content">
-        <p class="nav-text">mustafa kole</p>
-        <div id="menuToggle">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul id="menu">
-            <li><a href="#home">Anasayfa</a></li>
-            <li><a href="#about">Hakkımda</a></li>
-            <li><a href="#projects">Projelerim</a></li>
-            <li><a href="#contact">İletisim</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <section id="home" class="home-hero">
-      <div class="home-content">
-        <h1 class="heading-primary">&#128075; SELAM! &#128075;</h1>
-        <div class="home-info">
-          <p class="text-primary">
-            Ben Mustafa, websiteme hosgeldin! Bu benim ilk websitem. Beni daha
-            fazla tanımak için assağı kaydır.
-          </p>
-        </div>
-        <div class="home-cta">
-          <a href="https://github.com/kmustafa0?tab=repositories" class="btn1 btn1-bg" target="_blank">Projelerim</a>
-        </div>
-      </div>
-      <div class="home-socials">
-        <div class="home-social">
-          <a href="https://www.linkedin.com/in/kolemustafa/" target="_blank" class="home-social-icon-link">
-            <img src="./ico/linkedin-ico.png" class="home-social-icon" alt="linked-in icon" />
-          </a>
-        </div>
-        <div class="home-social">
-          <a href="https://www.instagram.com/mmustafakole/" target="_blank" class="home-social-icon-link">
-            <img src="./ico/insta-ico.png" class="home-social-icon" alt="instagram icon" />
-          </a>
-        </div>
-        <div class="home-social">
-          <a href="https://blog.mustafakole.dev/" target="_blank" class="home-social-icon-link">
-            <img src="./ico/blog.png" class="home-social-icon" alt="blog icon" style="filter: grayscale(1)" />
-          </a>
-        </div>
-        <div class="home-social">
-          <a href="https://www.twitter.com/mustafakole0" target="_blank" class="home-social-icon-link">
-            <img src="./ico/twitter-ico.png" class="home-social-icon" alt="twitter icon" />
-          </a>
-        </div>
-        <div class="home-social">
-          <a href="https://github.com/kmustafa0" target="_blank"
-            class="home-social-icon-link home-social-icon-link-bd-none">
-            <img src="./ico/github-ico.png" class="home-social-icon" alt="github icon" />
-          </a>
-        </div>
-      </div>
-      <div class="home-mouse-scroll-cont">
-        <a href="#about">
-          <div class="mouse"></div>
-        </a>
-      </div>
-    </section>
-
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec--mb-med">
-          <span class="heading-sec--main">
-            <!-- Benim Hakkımda -->
-            Hakkımda
-          </span>
-          <span class="heading-sec--sub">
-            Kendimi gelistirmek istediğim alanlar ve okumus olduğum okullar.
-          </span>
-        </h2>
-        <div class="about-content">
-          <div class="about-content-main">
-            <h3 class="about-content-title">benim hakkımda</h3>
-            <div class="about-content-details">
-              <p class="about-content-details-para">
-                Merhaba ben <strong>Mustafa</strong>,
-                <strong> Eskisehir Osmangazi Üniversitesi</strong>'nde
-                <strong>Bilgisayar Programcılıgı</strong> öğrencisiyim. Bölüme
-                basladıktan sonra programlamayı çok sevdim ve kendimi
-                <strong>Full-stack developer</strong> olmak için gelistirmeye
-                çalısıyorum.
-              </p>
-            </div>
-            <p class="about-content-details-para"></p>
+  <body>
+    <div class="overflowx-hidden">
+      <header class="header">
+        <div class="header-content">
+          <div class="header-logo-container">
+            <span class="header-logo-sub">Mustafa Köle</span>
           </div>
-          <div class="education-life">
-            <h3 class="about-content-title">Eğitim Hayatım</h3>
-            <div class="education">
-              <p class="about-content-details-para">
-                <strong>Eskisehir Osmangazi Üniversitesi Bilgisayar Programcılıgı </strong>okuyorum. Liseyi
-                <strong>IMMIB Erkan Avcı MTAL</strong>'de
-                <strong>Elektrik/Elektronik, Güvenlik Sistemleri</strong>
-                bölümünde okudum. Ilkokulu ve ortaokulu
-                <strong>Güngören Gaziler Ortaokulu</strong> nda okudum. Ve şu
-                anda Eskişehir Osmangazi Üniversitesi
-                <strong>Bilgisayar Programcılığı</strong>
-                bölümünde okuyorum.
-              </p>
-            </div>
+          <div class="header-main">
+            <ul class="header_links">
+              <li><a href="#home" class="header_link">Anasayfa</a></li>
+              <li><a href="#about" class="header_link">Hakkımda</a></li>
+              <li><a href="#projects" class="header_link">Projelerim</a></li>
+              <li><a href="#contact" class="header_link">İletisim</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Mobil İçin Navbar -->
+      <div class="nav-container">
+        <div class="nav-content">
+          <p class="nav-text">mustafa kole</p>
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <li><a href="#home">Anasayfa</a></li>
+              <li><a href="#about">Hakkımda</a></li>
+              <li><a href="#projects">Projelerim</a></li>
+              <li><a href="#contact">İletisim</a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="about-mouse-scroll-cont">
-        <a href="#projects">
-          <div class="mouse1"></div>
-        </a>
-      </div>
-    </section>
 
-    <section id="projects" class="skills sec-pad">
-      <div class="main-container">
-        <!-- <span class="heading-sec--sub">
+      <section id="home" class="home-hero">
+        <div class="home-content">
+          <h1 class="heading-primary">&#128075; SELAM! &#128075;</h1>
+          <div class="home-info">
+            <p class="text-primary">
+              Ben Mustafa, websiteme hosgeldin! Bu benim ilk websitem. Beni daha
+              fazla tanımak için assağı kaydır.
+            </p>
+          </div>
+          <div class="home-cta">
+            <a
+              href="https://github.com/kmustafa0?tab=repositories"
+              class="btn1 btn1-bg"
+              target="_blank"
+              >Projelerim</a
+            >
+          </div>
+        </div>
+        <div class="home-socials">
+          <div class="home-social">
+            <a
+              href="https://www.linkedin.com/in/kolemustafa/"
+              target="_blank"
+              class="home-social-icon-link"
+            >
+              <img
+                src="./ico/linkedin-ico.png"
+                class="home-social-icon"
+                alt="linked-in icon"
+              />
+            </a>
+          </div>
+          <div class="home-social">
+            <a
+              href="https://www.instagram.com/mmustafakole/"
+              target="_blank"
+              class="home-social-icon-link"
+            >
+              <img
+                src="./ico/insta-ico.png"
+                class="home-social-icon"
+                alt="instagram icon"
+              />
+            </a>
+          </div>
+          <div class="home-social">
+            <a
+              href="https://mkole.vercel.app"
+              target="_blank"
+              class="home-social-icon-link"
+            >
+              <img
+                src="./ico/blog.png"
+                class="home-social-icon"
+                alt="blog icon"
+                style="filter: grayscale(1)"
+              />
+            </a>
+          </div>
+          <div class="home-social">
+            <a
+              href="https://www.twitter.com/mustafakole0"
+              target="_blank"
+              class="home-social-icon-link"
+            >
+              <img
+                src="./ico/twitter-ico.png"
+                class="home-social-icon"
+                alt="twitter icon"
+              />
+            </a>
+          </div>
+          <div class="home-social">
+            <a
+              href="https://github.com/kmustafa0"
+              target="_blank"
+              class="home-social-icon-link home-social-icon-link-bd-none"
+            >
+              <img
+                src="./ico/github-ico.png"
+                class="home-social-icon"
+                alt="github icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="home-mouse-scroll-cont">
+          <a href="#about">
+            <div class="mouse"></div>
+          </a>
+        </div>
+      </section>
+
+      <section id="about" class="about sec-pad">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec--mb-med">
+            <span class="heading-sec--main">
+              <!-- Benim Hakkımda -->
+              Hakkımda
+            </span>
+            <span class="heading-sec--sub">
+              Kendimi gelistirmek istediğim alanlar ve okumus olduğum okullar.
+            </span>
+          </h2>
+          <div class="about-content">
+            <div class="about-content-main">
+              <h3 class="about-content-title">benim hakkımda</h3>
+              <div class="about-content-details">
+                <p class="about-content-details-para">
+                  Merhaba ben <strong>Mustafa</strong>,
+                  <strong> Eskisehir Osmangazi Üniversitesi</strong>'nde
+                  <strong>Bilgisayar Programcılıgı</strong> bölümü mezunuyum.
+                  Masaüstü programlama alanında da deneyim sahibiyi, ancak daha
+                  çok web geliştirme ilgimi çektiği için kendimi bu alanda
+                  geliştirmek için projeler yapıyorum.
+                </p>
+              </div>
+              <p class="about-content-details-para"></p>
+            </div>
+            <!-- <div class="education-life">
+              <h3 class="about-content-title">Eğitim Hayatım</h3>
+              <div class="education">
+                <p class="about-content-details-para">
+                  <strong
+                    >Eskisehir Osmangazi Üniversitesi Bilgisayar Programcılıgı </strong
+                  >okuyorum. Liseyi <strong>IMMIB Erkan Avcı MTAL</strong>'de
+                  <strong>Elektrik/Elektronik, Güvenlik Sistemleri</strong>
+                  bölümünde okudum. Ilkokulu ve ortaokulu
+                  <strong>Güngören Gaziler Ortaokulu</strong> nda okudum. Ve şu
+                  anda Eskişehir Osmangazi Üniversitesi
+                  <strong>Bilgisayar Programcılığı</strong>
+                  bölümünde okuyorum.
+                </p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="about-mouse-scroll-cont">
+          <a href="#projects">
+            <div class="mouse1"></div>
+          </a>
+        </div>
+      </section>
+
+      <section id="projects" class="skills sec-pad">
+        <div class="main-container">
+          <!-- <span class="heading-sec--sub">
               İlgilendiğim ve uğrasmaktan keyif aldığım bazı seyler.
             </span>
           </h2>
@@ -212,152 +263,284 @@
               </div>
             </div>
           </div> -->
-        <section class="">
-          <div class="container py-4">
-            <span class="heading-sec--main projects"> projelerım </span>
+          <section class="">
+            <div class="container py-4">
+              <span class="heading-sec--main projects"> projelerım </span>
 
-            <article class="postcard glass blue">
-              <a class="postcard__img_link" target="_blank"
-                href="https://github.com/kmustafa0/AkademiFitness_admin-panel">
-                <img class="postcard__img" src="./images/adminPanel.png" alt="Image Title" />
-              </a>
-              <div class="postcard__text">
-                <h1 class="postcard__title blue">
-                  <a target="_blank" href="https://github.com/kmustafa0/AkademiFitness_admin-panel">Spor salonu için
-                    admin Paneli</a>
-                </h1>
-                <div class="postcard__subtitle small">
-                  <i class="fas fa-calendar-alt mr-2 mr03"></i>Feb 22th 2023
+              <article class="postcard glass blue">
+                <a
+                  class="postcard__img_link"
+                  target="_blank"
+                  href="https://github.com/kmustafa0/AkademiFitness_admin-panel"
+                >
+                  <img
+                    class="postcard__img"
+                    src="./images/adminPanel.png"
+                    alt="Image Title"
+                  />
+                </a>
+                <div class="postcard__text">
+                  <h1 class="postcard__title blue">
+                    <a
+                      target="_blank"
+                      href="https://github.com/kmustafa0/AkademiFitness_admin-panel"
+                      >Spor salonu için admin Paneli</a
+                    >
+                  </h1>
+                  <div class="postcard__subtitle small">
+                    <i class="fas fa-calendar-alt mr-2 mr03"></i>Feb 22 2023
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">
+                    Bir Spor salonu icin yaptıgım, MySQL veri tabanı kullanarak
+                    uyelerin bilgilerini kaydettigim bir admin paneli. Yönetici
+                    bu ekrandan veritabanına yeni bir üye ekleme yapabiliyor. ID
+                    ve kayıt tarihi otomatik olarak atanıyor ve yönetici bunları
+                    değiştiremiyor. Yönetici veri tabanında girdiği bilgiye göre
+                    üye araması yapabiliyor, seçtiği üyenin bilgilerini
+                    güncelleyebiliyor veya üyeyi silebiliyor.
+                  </div>
                 </div>
-                <div class="postcard__bar"></div>
-                <div class="postcard__preview-txt">
-                  Bir Spor salonu icin yaptıgım, MySQL veri tabanı kullanarak
-                  uyelerin bilgilerini kaydettigim bir admin paneli. Yönetici
-                  bu ekrandan veritabanına yeni bir üye ekleme yapabiliyor. ID
-                  ve kayıt tarihi otomatik olarak atanıyor ve yönetici bunları
-                  değiştiremiyor. Yönetici veri tabanında girdiği bilgiye göre
-                  üye araması yapabiliyor, seçtiği üyenin bilgilerini
-                  güncelleyebiliyor veya üyeyi silebiliyor.
+              </article>
+              <article class="postcard glass blue">
+                <a
+                  class="postcard__img_link"
+                  target="_blank"
+                  href="https://github.com/kmustafa0/loginRegisterAndManage"
+                >
+                  <img
+                    class="postcard__img"
+                    src="./images/loginPage.png"
+                    alt="Image Title"
+                  />
+                </a>
+                <div class="postcard__text">
+                  <h1 class="postcard__title red">
+                    <a
+                      target="_blank"
+                      href="https://github.com/kmustafa0/loginRegisterAndManage"
+                      class="podcastTitle"
+                      >Giris ekrani ve admin paneli</a
+                    >
+                  </h1>
+                  <div class="postcard__subtitle small">
+                    <i class="fas fa-calendar-alt mr-2 podcastDate"></i>Dec 31
+                    2022
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">
+                    Internet programcılıgı dersinde yaptıgım proje. MySQL veri
+                    tabanı kullanıyor. Kullanıcı kayıt olabiliyor ve giris¸
+                    yapınca kendi bilgilerini goruntuleyip bunları
+                    guncelleyebiliyor. Giris¸ yapan hesap admin olarak kayıtlı
+                    ise tum kullanıcıları goruntuleyip bilgilerinde guncelleme
+                    yapabiliyor
+                  </div>
                 </div>
-              </div>
-            </article>
-            <article class="postcard glass blue">
-              <a class="postcard__img_link" target="_blank" href="https://github.com/kmustafa0/loginRegisterAndManage">
-                <img class="postcard__img" src="./images/loginPage.png" alt="Image Title" />
-              </a>
-              <div class="postcard__text">
-                <h1 class="postcard__title red">
-                  <a target="_blank" href="https://github.com/kmustafa0/loginRegisterAndManage"
-                    class="podcastTitle">Giris ekrani ve admin paneli</a>
-                </h1>
-                <div class="postcard__subtitle small">
-                  <i class="fas fa-calendar-alt mr-2 podcastDate"></i>Dec 31st
-                  2022
+              </article>
+              <article class="postcard glass blue">
+                <a
+                  class="postcard__img_link"
+                  target="_blank"
+                  href="https://github.com/kmustafa0/blogWeb"
+                >
+                  <img
+                    class="postcard__img"
+                    src="./images/blog_image.png"
+                    alt="Image Title"
+                  />
+                </a>
+                <div class="postcard__text">
+                  <h1 class="postcard__title blue">
+                    <a
+                      target="_blank"
+                      href="https://github.com/kmustafa0/blogWeb"
+                      >Blog Uygulaması</a
+                    >
+                  </h1>
+                  <div class="postcard__subtitle small">
+                    <i class="fas fa-calendar-alt mr-2 mr03"></i>Jun 24 2023
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">
+                    PHP ve MySQL ile yaptığım blog sitesi. Misafirler üye olup
+                    blog yazılarına yorum yapabiliyorlar. Admin panelinde ise
+                    blog yazısı paylaşılabiliyor ve paylaşılmış yazılarda
+                    düzenleme yapılabiliyor, yorumlara ve kullanıcılara müdahale
+                    ediliyor.
+                  </div>
                 </div>
-                <div class="postcard__bar"></div>
-                <div class="postcard__preview-txt">
-                  Internet programcılıgı dersinde yaptıgım proje. MySQL veri
-                  tabanı kullanıyor. Kullanıcı kayıt olabiliyor ve giris¸
-                  yapınca kendi bilgilerini goruntuleyip bunları
-                  guncelleyebiliyor. Giris¸ yapan hesap admin olarak kayıtlı
-                  ise tum kullanıcıları goruntuleyip bilgilerinde guncelleme
-                  yapabiliyor
+              </article>
+              <article class="postcard glass blue">
+                <a
+                  class="postcard__img_link"
+                  target="_blank"
+                  href="https://github.com/kmustafa0/nextjsBlog"
+                >
+                  <img
+                    class="postcard__img"
+                    src="./images/nextjsBlog.png"
+                    alt="Image Title"
+                  />
+                </a>
+                <div class="postcard__text">
+                  <h1 class="postcard__title blue">
+                    <a
+                      target="_blank"
+                      href="https://github.com/kmustafa0/nextjsBlog"
+                      >Nextjs Blog Uygulaması</a
+                    >
+                  </h1>
+                  <div class="postcard__subtitle small">
+                    <i class="fas fa-calendar-alt mr-2 mr03"></i>Oct 8 2023
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">
+                    Next.js, NextAuth.js, Prisma ve MongoDB kullanarak
+                    geliştirdiğim blog sitesi, Next.js'in hızlı ve
+                    ölçeklenebilir yapısı sayesinde dinamik bir kullanıcı
+                    arayüzü elde edilirken, NextAuth.js ile güvenli giriş ve
+                    kimlik doğrulama sağlandı.
+                  </div>
                 </div>
-              </div>
-            </article>
-            <article class="postcard glass blue">
-              <a class="postcard__img_link" target="_blank" href="https://github.com/kmustafa0/blogWeb">
-                <img class="postcard__img" src="./images/blog_image.png" alt="Image Title" />
-              </a>
-              <div class="postcard__text">
-                <h1 class="postcard__title blue">
-                  <a target="_blank" href="https://github.com/kmustafa0/blogWeb">Blog Uygulaması</a>
-                </h1>
-                <div class="postcard__subtitle small">
-                  <i class="fas fa-calendar-alt mr-2 mr03"></i>Jun 24th 2023
-                </div>
-                <div class="postcard__bar"></div>
-                <div class="postcard__preview-txt">
-                  PHP ve MySQL ile yaptığım blog sitesi. Misafirler üye olup
-                  blog yazılarına yorum yapabiliyorlar. Admin panelinde ise
-                  blog yazısı paylaşılabiliyor ve paylaşılmış yazılarda
-                  düzenleme yapılabiliyor, yorumlara ve kullanıcılara müdahale
-                  ediliyor.
-                </div>
-              </div>
-            </article>
-          </div>
-        </section>
-      </div>
-      <div class="skills-mouse-scroll-cont">
-        <a href="#contact">
-          <div class="mouse2"></div>
-        </a>
-      </div>
-    </section>
-
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec--mb-med">
-          <span class="heading-sec--main heading-sec--main_lt">
-            İLETİsİM
-          </span>
-          <span class="heading-sec--sub heading-sec--sub_lt">
-            İletisime geçmek için sosyal medya hesaplarımı kullanabilir yada
-            assağıdaki formu doldurarak bana mesaj gönderebilirsin.
-          </span>
-        </h2>
-        <div class="contact-form--container">
-          <form action="https://formsubmit.co/mustafakolemst@gmail.com" method="POST" class="contact-form">
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_subject" value="New email!" />
-            <div class="contact-form--field">
-              <label class="contact-form--label" for="name">Ismin</label>
-              <input class="contact-form--input" placeholder="İsmini Yaz" type="text" name="name" id="name" />
+              </article>
             </div>
-            <div class="contact-form--field">
-              <label class="contact-form--label" for="email">Email</label>
-              <input class="contact-form--input" placeholder="Emailini Yaz" type="text" name="email" id="email" />
-            </div>
-            <input type="hidden" name="_next" value="https://mustafakole.dev/thanks.html" />
-            <div class="contact-form--field">
-              <label class="contact-form--label" for="message">Mesajın</label>
-              <textarea class="contact-form--input" placeholder="Mesajını Yaz" name="message" id="message" cols="30"
-                rows="10"></textarea>
-            </div>
-            <button type="submit" class="contact-btn">GÖNDER</button>
-          </form>
+          </section>
         </div>
-      </div>
-      <div class="contact-mouse-scroll-cont">
-        <a href="#home">
-          <div class="mouse3"></div>
-        </a>
-      </div>
-    </section>
+        <div class="skills-mouse-scroll-cont">
+          <a href="#contact">
+            <div class="mouse2"></div>
+          </a>
+        </div>
+      </section>
 
-    <footer>
-      <p><strong>Tasarlayan: Mustafa Köle</strong></p>
-      <p class="copyright">Copyright © 2022</p>
-      <div class="footer-socials">
-        <a href="https://www.linkedin.com/in/kolemustafa/" target="_blank" class="footer-social-icon-link">
-          <img src="./ico/linkedin-ico.png" class="footer-social-icon" alt="linked-in icon" />
-        </a>
-        <a href="https://www.instagram.com/mmustafakole/" target="_blank" class="footer-social-icon-link">
-          <img src="./ico/insta-ico.png" class="footer-social-icon" alt="instagram icon" />
-        </a>
-        <a href="https://blog.mustafakole.dev/" target="_blank" class="footer-social-icon-link">
-          <img src="https://blog.mustafakole.dev/assets/favicon.ico" class="footer-social-icon" alt="blog icon" />
-        </a>
-        <a href="https://www.twitter.com/mustafakole0" target="_blank" class="footer-social-icon-link">
-          <img src="./ico/twitter-ico.png" class="footer-social-icon" alt="twitter icon" />
-        </a>
-        <a href="https://github.com/kmustafa0" target="_blank" class="footer-social-icon-link">
-          <img src="./ico/github-ico.png" class="footer-social-icon" alt="github icon" />
-        </a>
-      </div>
-    </footer>
-  </div>
-</body>
+      <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec--mb-med">
+            <span class="heading-sec--main heading-sec--main_lt">
+              İLETİsİM
+            </span>
+            <span class="heading-sec--sub heading-sec--sub_lt">
+              İletisime geçmek için sosyal medya hesaplarımı kullanabilir yada
+              assağıdaki formu doldurarak bana mesaj gönderebilirsin.
+            </span>
+          </h2>
+          <div class="contact-form--container">
+            <form
+              action="https://formsubmit.co/mustafakolemst@gmail.com"
+              method="POST"
+              class="contact-form"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_subject" value="New email!" />
+              <div class="contact-form--field">
+                <label class="contact-form--label" for="name">Ismin</label>
+                <input
+                  class="contact-form--input"
+                  placeholder="İsmini Yaz"
+                  type="text"
+                  name="name"
+                  id="name"
+                />
+              </div>
+              <div class="contact-form--field">
+                <label class="contact-form--label" for="email">Email</label>
+                <input
+                  class="contact-form--input"
+                  placeholder="Emailini Yaz"
+                  type="text"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://mustafakole.dev/thanks.html"
+              />
+              <div class="contact-form--field">
+                <label class="contact-form--label" for="message">Mesajın</label>
+                <textarea
+                  class="contact-form--input"
+                  placeholder="Mesajını Yaz"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <button type="submit" class="contact-btn">GÖNDER</button>
+            </form>
+          </div>
+        </div>
+        <div class="contact-mouse-scroll-cont">
+          <a href="#home">
+            <div class="mouse3"></div>
+          </a>
+        </div>
+      </section>
 
+      <footer>
+        <p><strong>Tasarlayan: Mustafa Köle</strong></p>
+        <p class="copyright">Copyright © 2022</p>
+        <div class="footer-socials">
+          <a
+            href="https://www.linkedin.com/in/kolemustafa/"
+            target="_blank"
+            class="footer-social-icon-link"
+          >
+            <img
+              src="./ico/linkedin-ico.png"
+              class="footer-social-icon"
+              alt="linked-in icon"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/mmustafakole/"
+            target="_blank"
+            class="footer-social-icon-link"
+          >
+            <img
+              src="./ico/insta-ico.png"
+              class="footer-social-icon"
+              alt="instagram icon"
+            />
+          </a>
+          <a
+            href="https://mkole.vercel.app"
+            target="_blank"
+            class="footer-social-icon-link"
+          >
+            <img
+              src="./ico/blog.png"
+              class="footer-social-icon"
+              alt="blog icon"
+            />
+          </a>
+          <a
+            href="https://www.twitter.com/mustafakole0"
+            target="_blank"
+            class="footer-social-icon-link"
+          >
+            <img
+              src="./ico/twitter-ico.png"
+              class="footer-social-icon"
+              alt="twitter icon"
+            />
+          </a>
+          <a
+            href="https://github.com/kmustafa0"
+            target="_blank"
+            class="footer-social-icon-link"
+          >
+            <img
+              src="./ico/github-ico.png"
+              class="footer-social-icon"
+              alt="github icon"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

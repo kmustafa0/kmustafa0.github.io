@@ -276,8 +276,9 @@ textarea:focus {
 }
 
 .about-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
+
   row-gap: 10rem;
 }
 .about-content-title {
