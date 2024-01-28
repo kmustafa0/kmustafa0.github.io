@@ -156,6 +156,9 @@ textarea:focus {
 .home-cta {
   margin-top: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
 }
 /* home section mouse scroll */
 .mouse {
