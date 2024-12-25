@@ -11,7 +11,7 @@
   box-sizing: inherit;
 }
 html {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
   font-size: 62.6%;
 }
@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -46,7 +46,7 @@ textarea:focus {
   z-index: 1000;
   background: #74d5ed;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .header-content {
   display: flex;
@@ -171,7 +171,7 @@ textarea:focus {
   transform: rotateX(180deg);
 }
 .mouse::before {
-  content: "";
+  content: '';
   width: 5px;
   height: 5px;
   position: absolute;
@@ -256,7 +256,7 @@ textarea:focus {
   position: relative;
 }
 .heading-sec--main::after {
-  content: "";
+  content: '';
   position: absolute;
   top: calc(100% + 1.5rem);
   height: 5px;
@@ -270,7 +270,7 @@ textarea:focus {
   display: block;
   text-align: center;
   color: black;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 900;
   max-width: 80rem;
@@ -322,7 +322,7 @@ textarea:focus {
   bottom: 35px;
 }
 .mouse1::before {
-  content: "";
+  content: '';
   width: 5px;
   height: 5px;
   position: absolute;
@@ -381,7 +381,7 @@ textarea:focus {
   transform: rotateX(180deg);
 }
 .mouse2::before {
-  content: "";
+  content: '';
   width: 5px;
   height: 5px;
   position: absolute;
@@ -396,7 +396,7 @@ textarea:focus {
 }
 .skills-mouse-scroll-cont {
   position: absolute;
-  bottom: 8%;
+  bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -458,15 +458,11 @@ footer .copyrigt {
   color: #fff;
 }
 .heading-sec--main_lt::after {
-  content: "";
+  content: '';
   background: rgb(255, 175, 64) !important;
 }
 .contact {
-  background: linear-gradient(
-    to right,
-    rgba(0, 98, 185, 0.8),
-    rgba(0, 98, 185, 0.8)
-  );
+  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));
   background-size: cover;
   background-position: center;
   position: relative;
@@ -543,7 +539,7 @@ footer .copyrigt {
   overflow: hidden;
 }
 .mouse3::before {
-  content: "";
+  content: '';
   width: 5px;
   height: 5px;
   position: absolute;
